@@ -1,0 +1,18 @@
+php artisan make:controller PostsController --resource (--resourse sukuria kontroleryje paruostas funkcijas)
+php artisan route:list (parodo routes)
+
+php artisan serve
+php artisan make:model Post --migration
+
+create migration for posts
+-----
+php artisan make:migration create_posts_table
+
+$table->string('content');
+$table->text('content');
+$table->timestamp('added_on');
+
+.env -> change database name and password
+create database
+
+php artisan migrate
